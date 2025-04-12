@@ -6,7 +6,7 @@ import Navigation from "@/components/Navigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
   title: "Developer Portfolio",
   description: "Electrical engineer turned software developer, specialized in building high-performance, interactive 3D visualization systems.",
   openGraph: {
