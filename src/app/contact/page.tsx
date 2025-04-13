@@ -18,11 +18,11 @@ export default function Contact() {
         
         <div className="mb-8">
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:jespe9103@gmail.com"
             className="flex items-center gap-2 text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
           >
             <EnvelopeIcon className="w-5 h-5" />
-            <span>your.email@example.com</span>
+            <span>jespe9103@gmail.com</span>
           </a>
         </div>
 
@@ -32,7 +32,7 @@ export default function Contact() {
           </h2>
           <div className="flex gap-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/JEPPE9103"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
@@ -40,7 +40,7 @@ export default function Contact() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/jesper-persson-845905232/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white"
@@ -55,7 +55,7 @@ export default function Contact() {
             Send a Message
           </h2>
           <form
-            action="https://formspree.io/f/your-form-id"
+            action="https://formspree.io/f/meoanayb"
             method="POST"
             className="space-y-4"
           >

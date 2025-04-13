@@ -32,7 +32,7 @@ export default function RootLayout({
           <footer className="bg-white dark:bg-gray-800 shadow-lg mt-auto">
             <div className="container mx-auto px-4 py-6">
               <p className="text-center text-gray-700 dark:text-gray-300">
-                © {new Date().getFullYear()} Your Name. All rights reserved.
+                © {new Date().getFullYear()} Jesper Persson. All rights reserved.
               </p>
             </div>
           </footer>

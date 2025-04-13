@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import ProjectCard from '@/components/ProjectCard'
 
 const projects = [
   {
@@ -14,7 +15,7 @@ const projects = [
   },
   {
     title: 'Domuus',
-    description: 'A modern app for checking children in and out at places like friends\' houses, relatives, or activities. Unlike GPS-based tracking apps, Domuus lets children maintain their privacy while giving parents peace of mind with convenient check-ins and real-time notifications.',
+    description: 'A modern app for checking children in and out at places like friends&apos; houses, relatives, or activities. Unlike GPS-based tracking apps, Domuus lets children maintain their privacy while giving parents peace of mind with convenient check-ins and real-time notifications.',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase'],
     githubUrl: 'https://github.com/JEPPE9103/DomuusWebapp',
     imageUrl: '/images/domuus.png'
@@ -136,6 +137,15 @@ export default function Home() {
             gave me a strong foundation in project delivery, team leadership, and technical problem-solving.
           </p>
         </motion.section>
+
+        <section className="mb-16">
+          <h2 className="text-3xl font-bold mb-8">Featured Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projects.map((project) => (
+              <ProjectCard key={project.title} {...project} />
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   )
