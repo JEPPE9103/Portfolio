@@ -126,7 +126,7 @@ export default function Home() {
             About Me
           </h2>
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-            Currently completing my internship as a Software Engineer at Joltsynsor in Cambridge, UK, where I'm 
+            Currently completing my internship as a Software Engineer at Joltsynsor in Cambridge, UK, where I&apos;m 
             working on an AI-driven infrastructure health monitoring platform. My role involves developing 
             visualization systems for structural analysis and creating backend services that process data using 
             machine learning algorithms to forecast infrastructure conditions.
