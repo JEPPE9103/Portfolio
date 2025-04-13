@@ -5,9 +5,10 @@ import ProjectCard from '@/components/ProjectCard'
 const projects = [
   {
     title: 'Domuus',
-    description: 'A modern real estate platform built with Next.js and TypeScript. Features property listings, search functionality, and a responsive design for optimal user experience.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Vercel'],
-    githubUrl: 'https://github.com/JEPPE9103/Domuus'
+    description: 'A modern app for checking children in and out at places like friends&apos; houses, relatives, or activities. Unlike GPS-based tracking apps, Domuus lets children maintain their privacy while giving parents peace of mind with convenient check-ins and real-time notifications.',
+    technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Firebase'],
+    githubUrl: 'https://github.com/JEPPE9103/DomuusWebapp',
+    demoUrl: 'https://domuus-webapp.vercel.app'
   },
   {
     title: 'TaskMaster',
